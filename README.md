@@ -1,7 +1,7 @@
 # FullStack Inteview questions
 
 
-#HTML
+##  HTML
 
 <details>
 <summary><strong>Purpose of Doctype in HTML</strong></summary>
@@ -29,7 +29,7 @@ The `<noscript>` tag is used to provide content that should be displayed when Ja
 
 </p>
 </details>
-##CSS
+##   CSS
 <details>
 <summary><strong>What are the possible ways to apply CSS styles to a web page?
 </strong></summary>
@@ -47,7 +47,7 @@ CSS selectors are patterns that define which elements on a web page should be ta
 </p>
 </details>
 
-##JavaScript
+##   JavaScript
 
 <details>
 <summary><strong>What are Promises and how do they help manage asynchronous operations?</strong></summary>
@@ -125,7 +125,7 @@ To prevent memory leaks, make sure to clean up event listeners, clear timeouts a
 </p>
 </details>
 
-##React Js
+##   React Js
 <details>
 <summary><strong>Explain the differences between controlled components and uncontrolled components?</strong></summary>
 <p>
