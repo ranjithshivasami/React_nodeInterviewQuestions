@@ -29,7 +29,9 @@ The `<noscript>` tag is used to provide content that should be displayed when Ja
 
 </p>
 </details>
+
 ## CSS
+
 <details>
 <summary><strong>What are the possible ways to apply CSS styles to a web page?
 </strong></summary>
