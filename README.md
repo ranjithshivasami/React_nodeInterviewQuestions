@@ -1,7 +1,8 @@
 # FullStack Inteview questions
 
 
-##HTML
+#HTML
+
 <details>
 <summary><strong>Purpose of Doctype in HTML</strong></summary>
 <p>
