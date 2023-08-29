@@ -262,10 +262,7 @@ Blocking code is code that cannot be executed until the current code is complete
 
 
 ## REST API
-
 What is the concept of statelessness in REST?
-
-
 <details>
 <summary><strong>What is the concept of statelessness in REST?
 </strong></summary>
