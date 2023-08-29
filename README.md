@@ -248,4 +248,31 @@ It’s always a good idea to test performance with real-world use cases and user
 </p>
 </details>
 
+## Node Js
 
+
+<details>
+<summary><strong>What is the blocking code?
+</strong></summary>
+<p>
+Blocking code is code that cannot be executed until the current code is completely executed.
+</p>
+</details>
+<details>
+
+
+## REST API
+
+What is the concept of statelessness in REST?
+
+
+<details>
+<summary><strong>What is the concept of statelessness in REST?
+</strong></summary>
+<p>
+The REST architecture is called stateless as it does not store any state related to the client session on the server. Essentially session states are entirely kept on the client side. This is effectively called Statelessness.
+
+It ensures that the server cannot take undue advantage of any stored data. However, since no data is stored, each request from the client to the server must contain all the necessary information about the request.
+</p>
+</details>
+<details>
