@@ -191,6 +191,61 @@ These additional questions cover various advanced ReactJS topics, giving you a c
 </p>
 </details>
 
+<details>
+<summary><strong>List some of the cases when you should use Refs.
+</strong></summary>
+<p>
+Following are the cases when refs should be used:
 
+When you need to manage focus, select text or media playback
+To trigger imperative animations
+Integrate with third-party DOM libraries
+</p>
+</details>
+
+<details>
+<summary><strong>List down the components of Redux
+</strong></summary>
+<p>
+Redux is composed of the following components:
+
+Action – It’s an object that describes what happened.
+Reducer –  It is a place to determine how the state will change.
+Store – State/ Object tree of the entire application is saved in the Store.
+View – Simply displays the data provided by the Store.
+In case you are facing any challenges with these React interview questions, please comment on your problems in the section below.
+</p>
+</details>
+<details>
+<summary><strong>What are the different ways to pass data between components in React?
+</strong></summary>
+<p>
+Data is passed as a property on the element when utilising props to communicate between components. For instance, you can do the following to send a user object from a parent component to a child component: The props object, props.user, can then be used in the child component to access the data. Data can be passed via the component tree using context rather than having to go through each level of the tree. You must establish a context object containing a Provider and a Consumer in order to use context.
+
+The components that require the data are served by the Provider, and the components that need to access the data are served by the Consumer. Data that is local to a component can be stored in a state, which allows for the tracking of data across time. Through the useState Hook, state in a component can be obtained. The current state value and a function to update the state value are the two items of an array that the useState Hook returns after receiving an initial value.
+</p>
+</details>
+<details>
+<summary><strong>How do you handle performance optimization in a React application?
+
+</strong></summary>
+<p>
+There are several ways to optimize the performance of a React application, including:
+
+Using the shouldComponentUpdate lifecycle method to prevent unnecessary re-renders of components.
+Using React’s built-in PureComponent or implementing a custom shouldComponentUpdate method to optimize performance for functional components.
+Using the React developer tools to profile the application and identify performance bottlenecks.
+Using the React.memo method for functional components
+Using React’s Context API instead of props drilling.
+Using the useEffect hook to handle side effects in functional components.
+Using the useCallback and useMemo hooks to prevent unnecessary re-renders and improve performance.
+Lazy loading of components and code splitting.
+Minimizing the number of DOM updates by using the key prop when rendering a list of items.
+Using the useReducer hook to manage state updates instead of useState
+Using a virtualized list library like react-virtualized, react-window etc.
+It’s always a good idea to test performance with real-world use cases and user interactions before and after making any optimization.
+
+</p>
+</details>
 
 
